@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 set(PROJECT_NAME "permission_handler_windows")
-set(CPPWINRT_VERSION "2.0.210806.1")
+#set(CPPWINRT_VERSION "2.0.210806.1")
 project(${PROJECT_NAME} LANGUAGES CXX)
 include(FetchContent)
 
