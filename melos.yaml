@@ -1,0 +1,13 @@
+name: permission_handler
+repository: https://github.com/MinkTec/flutter-permission-handler.git
+
+packages:
+  - ./**
+
+command:
+  environment:
+    sdk: ">=3.0.0 <4.0.0"
+    flutter: ">=3.0.0 <4.0.0"
+  bootstrap:
+    runPubGetInParallel: true
+    usePubspecOverrides: true

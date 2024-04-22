@@ -19,6 +19,9 @@ migrate_working_dir/
 *.iws
 .idea/
 
+# melos
+**/pubspec_overrides.yaml
+
 # Android Studio related
 android/.classpath
 android/.settings/
@@ -95,3 +98,4 @@ flutter_export_environment.sh
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
